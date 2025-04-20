@@ -1,0 +1,24 @@
+body:nth-child(2n+1){
+background-color: rgb(189, 27, 121);
+font-family: Verdana, "DejaVu Sans", sans-serif;
+}
+
+.odd{
+    background-color: rgb(189, 27, 121);
+    font-family: Verdana, "DejaVu Sans", sans-serif;
+}
+
+.third {
+    font-size: 24px;
+}
+
+#second {
+    color: lightblue;
+    font-size: 36px;
+}
+
+.fourth {
+    background-color:greenyellow;
+    font-size: 24px;
+    font-weight: bold;
+}
