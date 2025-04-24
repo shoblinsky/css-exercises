@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
 
 body {
   height: 100vh;
@@ -23,4 +23,79 @@ input {
   border-radius: 16px;
   padding: 8px 24px;
   width: 400px;
+}
+
+a:link {
+  color: #666;
+  text-decoration: none;
+}
+
+a:visited {
+  color: rgb(158, 145, 92);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration-line: underline;
+  text-decoration-style: dotted;
+  text-decoration-color: rgb(188, 175, 126);
+}
+
+a:active {
+  text-decoration-line: underline;
+  text-decoration: dotted;
+  text-decoration-color: rgb(0, 0, 0);
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+  margin: 0;
+  padding: 0;
+  gap: 16px;
+}
+
+.header,
+.footer {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: flex-start; */
+  padding: 16px;
+}
+footer {
+  background-color: #eeeeee;
+  /* margin-top: 60vh; */
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+/* .left-links, .right-links {
+  gap: 12px;
+  margin-right: auto;
+}
+
+ {
+} */
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  padding: 8px 16px;
+}
+
+.content {
+  flex: 1;
+  gap: 16px;
 }
