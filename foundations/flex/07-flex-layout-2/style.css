@@ -115,16 +115,19 @@ body {
   display: flex;
   align-items: center;
   font-weight: 900;
-  font-weight: bolder;
   font-size: 32px;
   padding: 16px;
-  padding-bottom: 0px;
-  padding-top: 0px;
+
 }
 
 .content {
   display: flex;
   flex: 1;
+}
+
+.header,
+.footer {
+  flex: 0 0 72px;
 }
 
 .footer {
@@ -134,22 +137,20 @@ body {
   align-items: center;
 }
 
-.header,
-.footer {
-  flex: 0 0 50px;
-}
-.sidebar > ul {
+
+
+.sidebar>ul {
   list-style-type: none;
   padding: 20px;
+
 }
 
-.card {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  flex-basis: content;
-  padding: 32px;
-  margin: 32px;
+a:link,
+a:visited {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: 600;
 }
 
 .card-wrapper {
@@ -158,10 +159,22 @@ body {
   flex-wrap: wrap;
   gap: 32px;
 }
+
+.card {
+  display: flex;
+  flex-direction: column;
+  padding: 32px;
+  margin: 32px;
+  flex-basis: 300px;
+  max-width: 300px;
+}
+
+
 .sidebar {
   flex: 0 0 300px;
   padding: 16px;
   align-self: stretch;
+  flex-shrink: 0;
 }
 
 .content,
